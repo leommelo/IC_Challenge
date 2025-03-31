@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "a91ba396-c909-431a-9d34-e8416960f8d9",
+		"name": "API Operadoras de Saúde",
+		"description": "Consultas à API de operadoras de saúde da ANS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43618816",
+		"_collection_link": "https://leonardomarques-2316026.postman.co/workspace/177d1f3a-90b3-48b6-83ff-0e4a26ac2e2a/collection/43618816-a91ba396-c909-431a-9d34-e8416960f8d9?action=share&source=collection_link&creator=43618816"
+	},
+	"item": [
+		{
+			"name": "Busca por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/api/operadoras/419761",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"operadoras",
+						"419761"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca por trimestre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/api/demonstracoes/maiores-despesas/trimestre",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"demonstracoes",
+						"maiores-despesas",
+						"trimestre"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca por 7 meses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/api/demonstracoes/maiores-despesas/sete-meses",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"demonstracoes",
+						"maiores-despesas",
+						"sete-meses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Busca por ano",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/api/demonstracoes/maiores-despesas/ano",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"demonstracoes",
+						"maiores-despesas",
+						"ano"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

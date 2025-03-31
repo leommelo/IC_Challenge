@@ -2,7 +2,6 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-# Altere os dados de conexão conforme seu ambiente
 DATABASE_URL = "mysql+pymysql://root:localhost@localhost:3306/ans_data"
 
 engine = create_engine(DATABASE_URL)
