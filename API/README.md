@@ -22,9 +22,6 @@ API/
 
 ### Frontend
 - Vue.js
-- TailwindCSS
-- PostCSS
-- Autoprefixer
 
 ## Pré-requisitos
 
