@@ -1,6 +1,8 @@
-D:\Projetos\Intuitive care\PdfToCsfJava\src\main\java\org\example\Main.java
-D:\Projetos\Intuitive care\PdfToCsfJava\src\main\java\org\example\PdfReader.java
-D:\Projetos\Intuitive care\PdfToCsfJava\src\main\java\org\example\PdfTable.java
-D:\Projetos\Intuitive care\PdfToCsfJava\src\main\java\org\example\Procedimento.java
-D:\Projetos\Intuitive care\PdfToCsfJava\src\main\java\org\example\ProcedimentoCSVExporter.java
-D:\Projetos\Intuitive care\PdfToCsfJava\src\main\java\org\example\ZipExtractor.java
+D:\Projetos\Intuitive_care\PdfToCsvJava\src\main\java\org\example\Main.java
+D:\Projetos\Intuitive_care\PdfToCsvJava\src\main\java\org\example\PdfReader.java
+D:\Projetos\Intuitive_care\PdfToCsvJava\src\main\java\org\example\PdfTable.java
+D:\Projetos\Intuitive_care\PdfToCsvJava\src\main\java\org\example\Procedimento.java
+D:\Projetos\Intuitive_care\PdfToCsvJava\src\main\java\org\example\ProcedimentoCSVExporter.java
+D:\Projetos\Intuitive_care\PdfToCsvJava\src\main\java\org\example\WebScrapingDownload.java
+D:\Projetos\Intuitive_care\PdfToCsvJava\src\main\java\org\example\ZipCsvModifier.java
+D:\Projetos\Intuitive_care\PdfToCsvJava\src\main\java\org\example\ZipExtractor.java

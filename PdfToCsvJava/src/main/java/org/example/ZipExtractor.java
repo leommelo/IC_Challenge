@@ -50,5 +50,38 @@ public class ZipExtractor {
         }
     }
 
+    // Método para zipar todos os arquivos dentro de uma pasta
+    public static void zipFiles(String sourceDir, String zipFilePath) throws IOException {
+        File folder = new File(sourceDir);
+        if (!folder.exists() || !folder.isDirectory()) {
+            System.out.println("Diretório de origem não existe: " + sourceDir);
+            return;
+        }
+
+        try (FileOutputStream fos = new FileOutputStream(zipFilePath);
+             ZipArchiveOutputStream zipOut = new ZipArchiveOutputStream(fos)) {
+
+            File[] files = folder.listFiles();
+            if (files == null || files.length == 0) {
+                System.out.println("Nenhum arquivo encontrado para compactação.");
+                return;
+            }
+
+            for (File file : files) {
+                if (file.isFile()) { // Apenas arquivos, ignora subpastas
+                    try (FileInputStream fis = new FileInputStream(file)) {
+                        ZipArchiveEntry zipEntry = new ZipArchiveEntry(file, file.getName());
+                        zipOut.putArchiveEntry(zipEntry);
+                        IOUtils.copy(fis, zipOut);
+                        zipOut.closeArchiveEntry();
+                    }
+                }
+            }
+
+            System.out.println("Arquivos compactados com sucesso em: " + zipFilePath);
+        }
+    }
+
+
 
 }

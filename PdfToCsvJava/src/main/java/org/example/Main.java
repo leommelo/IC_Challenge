@@ -8,6 +8,9 @@ import static org.example.ZipCsvModifier.modifySpecificCsvInZip;
 
 public class Main {
     public static void main(String[] args) {
+        //Baixar e zipar arquivos
+        WebScrapingDownload.main(args);
+
         String zipFilePath = "input/PdfFiles.zip"; // Caminho do ZIP
         String targetPdfName = "Anexo_I_Rol_2021RN_465.2021_RN627L.2024.pdf"; // Nome do PDF específico
 
