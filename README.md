@@ -1,4 +1,4 @@
-# Intuitive Care
+# IC Challenge
 
 Este repositório contém dois projetos principais relacionados ao processamento e gerenciamento de dados de operadoras de saúde:
 
