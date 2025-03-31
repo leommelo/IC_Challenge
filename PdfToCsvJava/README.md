@@ -78,7 +78,3 @@ O projeto utiliza as seguintes dependências principais:
 
 - Apache PDFBox: Para processamento de arquivos PDF
 - Apache Commons Compress: Para manipulação de arquivos compactados
-
-## Suporte
-
-Para suporte ou dúvidas, entre em contato com a equipe de desenvolvimento. 

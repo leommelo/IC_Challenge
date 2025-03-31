@@ -133,6 +133,3 @@ Uma coleção do Postman está disponível no arquivo `API Operadoras de Saúde.
 - Implementa componentes reutilizáveis
 - Segue as melhores práticas de desenvolvimento Vue.js
 
-## Suporte
-
-Para suporte ou dúvidas, entre em contato com a equipe de desenvolvimento. 
